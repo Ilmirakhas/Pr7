@@ -8,7 +8,7 @@ def dec_to_thirteen(n):
   thirteen_digits = digits[remainder] + thirteen_digits 
   n //= 13
  return thirteen_digits
-
+print("Введите положитнел")
 x=input()
 if x.isdigit():
     
